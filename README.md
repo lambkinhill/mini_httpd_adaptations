@@ -16,3 +16,14 @@ typedef long long int64_t;
 #endif */
 ```
 
+
+## Allow CORS, modify header
+
+place the 3 following lines starting 2601, adapt to your needs if you do not
+want to allow all sources:
+ 
+```
+/* add 2 lines below to Allow CORS: Access-Control-Allow-Origin for all sources */
+(void) snprintf( buf, sizeof(buf), "Access-Control-Allow-Origin: * \015\012");
+add_to_response( buf );
+```
