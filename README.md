@@ -1,5 +1,5 @@
 # mini_httpd_adaptations
-some adaptations for mini_httpd-1.30
+some adaptations for mini_httpd-1.30 (authors copyright: https://github.com/lambkinhill/mini_httpd_adaptations/blob/main/mini_httpd_copyright.txt)
 
 ## compiler error on Ubuntu 20.04 64bit
 ```
